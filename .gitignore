@@ -1,5 +1,15 @@
-# Object file
-*.o
+# File konfigurasi & kredensial sensitif
+config.php
+.env
 
-# Ada Library Information
-*.ali
+# File sementara & log sistem
+*.log
+*.tmp
+*.bak
+*.swp
+
+# File bawaan OS & editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
